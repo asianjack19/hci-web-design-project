@@ -1,0 +1,98 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+nav{
+    background-color: #151d2b;
+    color: white;
+    font-style: italic;
+}
+nav div{
+    max-width: 1366px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+
+
+footer{
+    background-color: #151d2b;
+    color: white;
+    font-style: italic;
+}
+.footer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#footer-img{
+    display: flex;
+    align-items: center;
+}
+#footer-img a{
+    margin-right: 0.5rem;
+}
+#facebook-logo{
+    width: 40px;
+}
+#insta-logo{
+    width: 30px;
+}
+#youtube-logo{
+    width: 40px;
+}
+
+
+.jumbotron{
+    background-image: linear-gradient(180deg,#fc6c6c,#ff914f);
+    min-height:200px;
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 100 !important;
+    font-style: normal;
+
+}
+#jumbotron-main{
+    max-width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+ #jumbotron-image img{
+    margin: 50px;
+    max-width:400px ;
+    border-radius: 60px;
+    box-shadow: 10px 20px 100px #202124;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#jumbotron-image:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
