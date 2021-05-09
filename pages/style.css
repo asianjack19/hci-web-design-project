@@ -81,6 +81,9 @@ footer{
     justify-content: space-around;
     margin: auto;
 }
+#jumbotron-main h1{
+    padding: 30px;
+}
  #jumbotron-image img{
     margin: 50px;
     max-width:400px ;
