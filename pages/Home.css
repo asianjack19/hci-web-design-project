@@ -126,7 +126,7 @@ footer{
     max-width: 90%;
     height: auto;
     box-shadow:  0 10px 8px #333;
-    background-image: linear-gradient(200deg,#e5edfe,#f1e8ec);
+    background-image: linear-gradient(200deg,#b9dbfe,#f1e8ec);
     border-radius: 20px;
     transition: 0.3s;
     text-align: center;
@@ -139,7 +139,7 @@ footer{
 
     margin-top: 1rem;
     border-radius: 50px;
-    max-width: 100%;
+    max-width: 90%;
     max-height: 200px;
     box-shadow:  0 5px 10px #333;
 }
@@ -150,12 +150,13 @@ footer{
     text-align: center;
     font-size: 130%;
 }
+.card-desc{
+    margin: 0 auto;
+    width: fit-content;
+}
 .card p{
     font-family: sans-serif;
     font-weight: 600;
     color: #4b6a04;
 }
-.card-desc{
-    margin: 0 auto;
-    width: fit-content;
-}
+
