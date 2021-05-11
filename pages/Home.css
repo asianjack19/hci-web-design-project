@@ -73,7 +73,6 @@ footer{
     font-size: 40px;
     font-weight: 100 !important;
     font-style: normal;
-
 }
 #jumbotron-main{
     max-width: 100%;
@@ -90,11 +89,9 @@ footer{
     max-width:400px ;
     border-radius: 60px;
     box-shadow: 10px 20px 100px #202124;
-
 	transition: .3s ease-in-out;
 }
 #jumbotron-image:hover img{
-   
 	transform: scale(1.1);
 }
 

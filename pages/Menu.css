@@ -66,14 +66,13 @@ footer{
 
 
 .jumbotron{
-    background-image: linear-gradient(180deg,#fc6c6c,#ff914f);
-    min-height:200px;
+    background-image: linear-gradient(220deg,#a2763d,#101820FF);
+    min-height:400px;
     color:#ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     font-weight: 100 !important;
     font-style: normal;
-
 }
 #jumbotron-main{
     max-width: 100%;
@@ -99,16 +98,35 @@ footer{
 }
 
 
+.container-0a{
+
+    background-color:#29180ede ;
+    color: whitesmoke;
+    text-align: center;
+}
+.container-0a h1{
+    margin: 0;
+    padding: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight:400;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 3px 4px  rgba(0,0,0,0.5);
+}
+
+
 .container-1{
-    background-image: linear-gradient(200deg,#e5edfe,#335);
-    box-shadow: 0 20px 30Spx #202124;
+    background-image: url(Assets/Pictures_assets/stock-photo-152716293.png);
+    background-size: cover;
+    max-height: fit-content;
+
 }
 .container-1 h2{
     margin: 0;
     padding: 3rem;
     text-align: center;
     font-size: 390%;
-    color: white;
+    color: white;    
 }
 
 
@@ -117,16 +135,17 @@ footer{
     margin: 0 auto;
     padding-bottom: 3rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     row-gap: 3rem;
 }
 .card{
-    filter: blur(0.35px);
+    
     max-width: 90%;
     height: auto;
-    box-shadow:  0 10px 8px #333;
-    background-image: linear-gradient(200deg,#b9dbfe,#f1e8ec);
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(20rem);
     border-radius: 20px;
     transition: 0.3s;
     text-align: center;
