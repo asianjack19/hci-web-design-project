@@ -145,19 +145,18 @@ footer{
     height: auto;
     box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
     background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
-    backdrop-filter: blur(20rem);
+    backdrop-filter: blur(10rem);
     border-radius: 20px;
     transition: 0.3s;
     text-align: center;
 }
 .card:hover{
-    filter: blur(0px);
 	transform: scale(1.08);
 }
 .card img{
 
     margin-top: 1rem;
-    border-radius: 50px;
+    border-radius: 25%;
     max-width: 90%;
     max-height: 200px;
     box-shadow:  0 5px 10px #333;
