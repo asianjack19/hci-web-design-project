@@ -99,13 +99,13 @@ footer{
 
 
 .container-0a{
-
-    background-color:#29180ede ;
+    background-color:#0f0905de ;
     color: whitesmoke;
     text-align: center;
 }
 .container-0a h1{
-    margin: 0;
+    width: fit-content;
+    margin: 0 auto;
     padding: 1rem;
     font-family: "Montserrat", sans-serif;
     font-weight:400;
@@ -119,7 +119,6 @@ footer{
     background-image: url(Assets/Pictures_assets/stock-photo-152716293.png);
     background-size: cover;
     max-height: fit-content;
-
 }
 .container-1 h2{
     margin: 0;
@@ -138,14 +137,14 @@ footer{
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     row-gap: 3rem;
+    column-gap: 1.5rem;
 }
 .card{
-    
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
     background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
-    backdrop-filter: blur(10rem);
+    backdrop-filter: blur(3rem);
     border-radius: 20px;
     transition: 0.3s;
     text-align: center;
@@ -166,14 +165,124 @@ footer{
     font-style: italic;
     font-weight: 700;
     text-align: center;
-    font-size: 130%;
+    font-size: 120%;
+    color: #d6d6d6e8;
 }
 .card-desc{
     margin: 0 auto;
-    width: fit-content;
+    width: 85%;
 }
 .card p{
     font-family: sans-serif;
     font-weight: 600;
-    color: #4b6a04;
+    color: #000000e5;
+}
+.card h5{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #7aaa0b;
+}
+
+
+.container-0b{
+    background-color:#fafafa ;
+    min-height: 100px;
+}
+
+
+.container-2{
+    background-image: url(Assets/Pictures_assets/ezgif-7-17db6855cbf1.jpg);
+    background-size: cover;
+    max-height: fit-content;
+}
+.container-2 h2{
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+    font-size: 390%;
+    color: #ffde03;
+    text-shadow: 2px 2px 1px #ff0000;    
+}
+.card-container2{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+}
+.card-container2 h4{
+    color:  #026d7e;
+}
+
+
+.container-3{
+    background-image: url(Assets/Pictures_assets/985342-full-size-pattern-desktop-backgrounds-2880x1620-for-htc.jpg);
+    background-size: cover;
+    max-height: fit-content;
+}
+.container-3 h2{
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+    font-size: 390%;
+    color: rgb(89 160 44);
+    text-shadow: 2px 2px 1px #ffde03;    
+}
+.card-container3{
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+}
+.card-container3 h4{
+      color:#026d7e;
+}
+.card3{
+    max-width: 100%;
+    height: auto;
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(1rem);
+    border-radius: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+.card3:hover{
+	transform: scale(1.08);
+}
+.card3 img{
+    margin-top: 1rem;
+    border-radius: 25%;
+    max-width: 90%;
+    max-height: 200px;
+    box-shadow:  0 5px 10px #333;
+}
+.card3 h4{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    font-size: 120%;
+    color:#055e6b;
+}
+.card3 p{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000000e5;
+}
+.card3 h5{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #7aaa0b;
 }

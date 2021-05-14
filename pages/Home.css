@@ -109,7 +109,7 @@ footer{
     width: 65%;
     border-radius: 70px;
     backdrop-filter: blur(3rem);
-    box-shadow: 10px 20px 100px #161718;
+    box-shadow: 10px 20px 100px #0c0c0c;
     padding: 3.7rem;
     text-align: center;
     display: flex;
@@ -126,15 +126,6 @@ footer{
 #Tagline:hover h1{
     transform: scale(1.06);
 }
-
-
-
-
-
-
-
-
-
 
 
 .container-2{
