@@ -187,9 +187,16 @@ footer{
 
 
 .container-0b{
- 
-    box-shadow: 0 0 1rem  black;
-    background-image: url(Assets/Pictures_assets/wood-pattern-1920x10802.png);
+    min-height: 40px;
+}
+#container-0b1 {
+    box-shadow: 0 0 3rem #7e7b7a ;
+    background-image: linear-gradient(177deg,#024148, #6da2a6);
+    min-height: 40px;
+}
+#container-0b2 {
+    box-shadow: 0 0 4rem  black;
+    background-image: linear-gradient(183deg, #58a02c, #feed48);
     min-height: 40px;
 }
 
@@ -287,4 +294,10 @@ footer{
     font-weight: 600;
     font-style: italic;
     color: #7aaa0b;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        min-width: fit-content;
+    }
 }
