@@ -1,9 +1,15 @@
 html{
-    background-image: url('Assets/Pictures_assets/steik-miaso-ovoshchi-ogon-gril.jpg');
+    background-image: url('Assets/Pictures_assets/wp4692267.jpg');
     background-size: cover;
 }
+main{
+    flex-grow: 1; 
+  }
 body
 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
     padding: 0;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,6 +17,23 @@ body
 a{
     text-decoration: none;
     color: inherit;
+}
+input{
+    min-width: 50%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    outline-width: 0;
+    border-radius: 0.35rem;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+input[type="date"]{
+    width: 50%;
+}
+label{
+    min-width: 40%;
 }
 
 
@@ -36,10 +59,8 @@ nav img{
 
 footer{
     min-width: 100%;
-    position:fixed;
     left:0;
     bottom:0;
-
     background-color: #151d2b;
     color: white;
     font-style: italic;
@@ -65,6 +86,57 @@ footer{
 }
 #youtube-logo{
     width: 40px;
+}
+
+
+.registration-form{
+    padding-top: 5rem;
+    max-width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+}
+#registration-body{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+#registration-card1{
+    max-width: 20%;
+    min-height: 30rem;
+    padding: 1rem;
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(2rem);
+    border-radius: 20px;
+    text-align: center;
+    color: black; 
+}
+#registration-card1 h1{
+    color: black;
+}
+#registration-card2{
+    width: 45%;
+    height: auto;
+    padding: 1rem;
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(1rem);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+}
+.registration-card-name, .registration-card-phonenum,
+.registration-card-personnum,.registration-card-date,
+.registration-card-date,.registration-card-time,.registration-card-coupon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 1rem;
 }
 
 
