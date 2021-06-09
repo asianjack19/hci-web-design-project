@@ -29,10 +29,8 @@ input{
     background-color: whitesmoke;
     opacity: 0.5;
 }
-input[type="date"]{
-    width: 50%;
-}
 label{
+    text-align: left;
     min-width: 40%;
 }
 
@@ -134,8 +132,7 @@ footer{
 .registration-card-date,.registration-card-time,.registration-card-coupon{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    text-align: left;
+    justify-content: space-between;
     margin: 1rem;
 }
 
