@@ -8,6 +8,7 @@
     <link rel="icon" href="Assets/LogoDraftFinal.png">
 
     <link rel="stylesheet" href="Reservation.css">
+    <script src="Reservation.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -19,7 +20,7 @@
     
     <!-- Body -->
     <main>
-        <form action="home.html" method="GET">
+        <form action="home.html" name="Reservation" method="GET">
             <div class="registration-form">
                 <div id="registration-body">
                     <div id="registration-card1">
@@ -46,7 +47,7 @@
                             <input type="text" name="personnum" id="personnum">
                         </div>
                         <div class="registration-card-date">
-                            <label for="date">Phone Number</label>
+                            <label for="date">Date</label>
                             <input type="date" name="date" id="date">
                         </div>
                         <div class="registration-card-time">
@@ -57,7 +58,7 @@
                             <label for="coupon">Coupon</label>
                             <input type="text" name="coupon" id="coupon">
                         </div>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" onclick="checkValidation()">
                     </div>
                 </div>
             </div>
