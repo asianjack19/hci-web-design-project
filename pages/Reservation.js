@@ -1,6 +1,3 @@
-console.log('connect')
-var today = new Date()
-    console.log(today)
 function checkValidation(){
     var name = document.forms['Reservation']['name'].value
     var phoneNumber = document.forms['Reservation']['phonenum'].value
@@ -32,8 +29,6 @@ function checkValidation(){
         }
         else validCoupon = false
     }
-    
-    console.log("Time:" + time)
 
     if(name=="" || phoneNumber=="" || numberOfPeople=="" || date=="" || time == "" || coupon == ""){alert("Please Complete the Form!")}
     else if(name.length <= 3){alert("Name Must be More Than 3 Letters")}
