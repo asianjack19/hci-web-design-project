@@ -18,7 +18,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-input{
+input, select{
     min-height: 1.5rem;
     min-width: 50%;
     border-top-style: hidden;
@@ -37,6 +37,7 @@ label{
     min-width: 40%;
     font-size: 1.23rem;
 }
+
 
 
 nav{
@@ -162,7 +163,7 @@ footer{
     background-image: linear-gradient(245deg,#394a6e,rgb(30, 30, 73));
     border-radius: 12px !important;
     height: 40px;
-    transition: .1s ease-in-out;
+    transition: .2s ease-in-out;
     color: aliceblue;
 }
 .button:hover{
