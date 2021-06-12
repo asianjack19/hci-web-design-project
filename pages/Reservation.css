@@ -26,13 +26,16 @@ input{
     border-left-style: hidden;
     border-bottom-style: solid;
     outline-width: 0;
-    border-radius: 0.35rem;
+    border-radius: 0.7rem;
     background-color: whitesmoke;
-    opacity: 0.5;
+    opacity: 0.5;    
 }
 label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
     text-align: left;
     min-width: 40%;
+    font-size: 1.23rem;
 }
 
 
@@ -110,7 +113,7 @@ footer{
     padding: 1rem;
     box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
     background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(3rem);
     border-radius: 20px;
     text-align: center;
     color: black; 
@@ -128,7 +131,7 @@ footer{
     padding: 1rem;
     box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
     background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(3rem);
     border-radius: 20px;
     text-align: center;
     color: rgb(224, 224, 224);
@@ -145,7 +148,26 @@ footer{
     justify-content: space-between;
     margin: 1rem;
 }
-
+#name,#phonenum,#personnum, #date,#time,#coupon,.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: black;
+}
+.btnContainer{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.button{
+    font-size: 1.3rem !important;
+    background-image: linear-gradient(245deg,#394a6e,rgb(30, 30, 73));
+    border-radius: 12px !important;
+    height: 40px;
+    transition: .1s ease-in-out;
+    color: aliceblue;
+}
+.button:hover{
+    transform: scale(1.1);
+}
 
 @media screen and (max-height:1080px) {
     html{

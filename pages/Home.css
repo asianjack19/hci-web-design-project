@@ -127,26 +127,75 @@ footer{
     transform: scale(1.06);
 }
 
+
 center{
-    background-image: linear-gradient( 190deg,#663d22,rgb(30, 30, 73));
+    background-color: #202623;
+    max-height: max-content;
 }
 .jquery-slider{
     max-width: 70%;
 }
-.jquery-slider img{
+.jquery-slider div{
     border-radius: 100px;
     display: none;
 }
-.jquery-slider img.active{
+.jquery-slider div.active{
+    margin: 0 auto;
     display: block;
     max-width: 70%;
     padding: 1rem;
+    
 }
+.active img{
+    max-width: 70%;
+    border-radius:30px ;
+    box-shadow: 10px 20px 30px #202124;
+    transition: .3s ease-in-out;
+}
+.active img:hover{
+    transform: scale(0.85);
+}
+.active h3{
+    text-align: center;
+    width: 30%;
+    color: wheat !important;
+}
+.button{
+    padding-bottom: 1rem;
+    max-width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnPrev, .btnNext{
+    max-width: 1.5rem;
+    transition: .3s ease-in-out;
+}
+.btnPrev:hover, .btnNext:hover{
+    transform: scale(1.3);
+}
+
+
+.container-0{
+    min-height: 40px;
+}
+#container-0a{
+    background-color: #202623;
+    min-height: 40px;
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite !important;
+}
+#container-0b{
+    background-image: linear-gradient(355deg,#394a6e,rgb(30, 30, 73));
+    min-height: 40px;
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 
 .container-2{
     background-image: linear-gradient(245deg,#394a6e,rgb(30, 30, 73));
-    box-shadow: 0 20px 30Spx #202124;
 }
 .container-2 h2{
     margin: 0;
