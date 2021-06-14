@@ -133,7 +133,7 @@ center{
     max-height: max-content;
 }
 .jquery-slider{
-    max-width: 70%;
+    max-width: 100%;
 }
 .jquery-slider div{
     border-radius: 100px;
@@ -147,13 +147,11 @@ center{
     
 }
 .active img{
-    max-width: 70%;
+    justify-self: center;
+    height: 300px;
     border-radius:30px ;
     box-shadow: 10px 20px 30px #202124;
-    transition: .3s ease-in-out;
-}
-.active img:hover{
-    transform: scale(0.85);
+    
 }
 .active h3{
     text-align: center;
@@ -178,7 +176,8 @@ center{
 .container-0{
     min-height: 40px;
 }
-#container-0a{
+#container-0a1{
+    padding: 1rem;
     background-color: #202623;
     min-height: 40px;
     text-align: center;
@@ -191,7 +190,6 @@ center{
     text-align: center;
     font-size: 2rem;
 }
-
 
 
 .container-2{

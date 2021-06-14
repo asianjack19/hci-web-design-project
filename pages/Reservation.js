@@ -21,7 +21,7 @@ function checkValidation(){
     var hour = parseInt(time.slice(0,2))
 
     //Coupon Logic
-    var code = ['Lucky Day', 'Mega Sale', 'Jackpot', 'Winner Winner Chicken Dinner', 'ABABA Steak321']
+    var code = ['Lucky Day', 'Mega Sale', 'Jackpot', 'Winner Winner Chicken Dinner', 'Winner Winner Steak Dinner','ABABA Steak321']
     for(var i=0; i<code.length; i++){
         if(code[i] == coupon){
             validCoupon = true
