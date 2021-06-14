@@ -131,10 +131,18 @@ footer{
 .card:hover{
 	transform: scale(1.02);
 }
+.card img{
+    border-radius: 30px;
+    max-width: 100%;
+}
 #left,#right{
     width: max-content !important;
 }
+#left img{
+    max-width: 184px !important;
+}
 #right img{
+    max-width: 14rem !important;
     border-radius: 22px !important;
 }
 .card-title{
@@ -153,10 +161,7 @@ footer{
     min-width: 100%;
     font-size: 170%;
 }
-.card img{
-    border-radius: 30px;
-    max-width: 184px;
-}
+
 
 .about{
     display: flex;
