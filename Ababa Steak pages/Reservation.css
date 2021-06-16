@@ -1,0 +1,191 @@
+html{
+    background-image: url('Assets/Pictures_assets/wp4692267.jpg');
+    background-size: cover;
+}
+main{
+    flex-grow: 1; 
+  }
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input, select{
+    min-height: 1.5rem;
+    min-width: 50%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    outline-width: 0;
+    border-radius: 0.7rem;
+    background-color: whitesmoke;
+    opacity: 0.5;    
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: left;
+    min-width: 40%;
+    font-size: 1.23rem;
+}
+h3{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
+nav{
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(3rem);
+    font-style: italic;
+}
+nav div{
+    max-width: 90%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    padding-top: 40%;
+    padding-bottom: 50%;
+    width: 30px;
+}
+
+
+footer{
+    min-width: 100%;
+    left:0;
+    bottom:0;
+    background-color: #151d2b;
+    color: white;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#footer-img{
+    display: flex;
+    align-items: center;
+}
+#footer-img a{
+    margin-right: 0.5rem;
+}
+#facebook-logo{
+    width: 40px;
+}
+#insta-logo{
+    width: 30px;
+}
+#youtube-logo{
+    width: 40px;
+}
+
+
+.registration-form{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    max-width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    row-gap: 3rem;
+}
+#registration-body{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+#registration-card1{
+    max-width: 20%;
+    min-height: 30rem;
+    padding: 1rem;
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(3rem);
+    border-radius: 20px;
+    text-align: center;
+    color: black; 
+}
+#registration-card1 h1{
+    color: black;
+}
+#registration-card1-title{
+    max-width:fit-content ;
+    margin: 0 auto;
+}
+#registration-card1-title h1{
+    color: antiquewhite;
+}
+#registration-card2{
+    width: 45%;
+    height: auto;
+    padding: 1rem;
+    box-shadow:  0 1rem 2rem rgba(0,0,0,0.5);
+    background: linear-gradient( to bottom right,rgba(255,255,255,0.2),rgba(255,255,255,0.05));
+    backdrop-filter: blur(3rem);
+    border-radius: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+#registration-card2-title{
+    max-width:fit-content ;
+    margin: 0 auto;
+}
+.registration-card-name, .registration-card-phonenum,
+.registration-card-personnum,.registration-card-date,
+.registration-card-date,.registration-card-time,.registration-card-coupon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+#name,#phonenum,#personnum, #date,#time,#coupon,.button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: black;
+}
+.btnContainer{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.button{
+    font-size: 1.3rem !important;
+    background-image: linear-gradient(245deg,#394a6e,rgb(30, 30, 73));
+    border-radius: 12px !important;
+    height: 40px;
+    transition: .2s ease-in-out;
+    color: aliceblue;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-height:1080px) {
+    html{
+        min-height: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:300px) {
+    html{
+        display: none;
+    }
+}
