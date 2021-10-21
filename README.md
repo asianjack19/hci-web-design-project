@@ -1,2 +1,1 @@
-Hello, this is a repository for our HCI Web design project!!
-Made by Me, William Boentoro, and Kevin C
+https://asianjack19.github.io/hci-web-design-project/
